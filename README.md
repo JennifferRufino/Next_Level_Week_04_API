@@ -21,10 +21,7 @@
 
 ## 🔖 Sobre
 
-[![GitHub forks](https://img.shields.io/github/forks/Lucas-Angelo/nps-api?style=social)](https://github.com/Lucas-Angelo/nps-api/network/members/)
-[![GitHub stars](https://img.shields.io/github/stars/Lucas-Angelo/nps-api?style=social)](https://github.com/Lucas-Angelo/nps-api/stargazers/)
-
-O <strong>NPS-API</strong> é uma API Restful para Net Promoter Score.
+O <strong>API</strong> Restful.
 
 Aplicação web construída na trilha <strong>NodeJS</strong> da <strong>Next Level Week</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/).
 
