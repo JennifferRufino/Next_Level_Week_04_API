@@ -11,7 +11,7 @@ export default {
   bail: true,
 
   // The directory where Jest should store its cached dependency information
-  // cacheDirectory: "C:\\Users\\55839\\AppData\\Local\\Temp\\jest",
+  // cacheDirectory: "C:\\Users\\mikaelboff\\AppData\\Local\\Temp\\jest",
 
   // Automatically clear mock calls and instances between every test
   clearMocks: true,
@@ -23,7 +23,7 @@ export default {
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-  // coverageDirectory: undefined,
+  coverageDirectory: "coverage",
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
@@ -93,7 +93,7 @@ export default {
   // notifyMode: "failure-change",
 
   // A preset that is used as a base for Jest's configuration
-   preset: "ts-jest",
+  preset: "ts-jest",
 
   // Run tests from one or more projects
   // projects: undefined,
@@ -146,9 +146,7 @@ export default {
   // testLocationInResults: false,
 
   // The glob patterns Jest uses to detect test files
-   testMatch: [
-     "**/__tests__/*.test.ts",
-   ],
+  testMatch: ["**/__tests__/*.test.ts"]
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [
